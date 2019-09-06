@@ -1,0 +1,83 @@
+//Roberto Carlos Cabezas Moreno 00087619
+//Algoritmo 1
+
+s=initialize;
+c=0;
+p=4;
+
+while{
+
+if (empty(s)){
+cout<<"pila vacia"<<endl;
+break;
+}
+
+if(s>2){
+
+pop(s);
+c=pop(s);
+
+cout<<"el elemento que se saco es: "<< c <<endl;
+
+break;
+} else {
+cout<<"no hay suficientes elementos"<<endl;
+break;
+}
+
+if(s>=2){
+pop(s);
+c=pop(s);
+	
+cout<<"el elemento que se saco es es: "<< c <<endl;
+
+break;
+
+}
+
+if (s<=1){
+c=pop(s);
+
+cout<<"el elemento que queda es: "<< c <<endl;
+
+break;
+}
+return 0;
+
+//algoritmo 2
+s= initialize
+c=0;
+while{
+
+if (empty(s)){
+cout<<"pila vacia"<<endl;
+break;
+}
+
+if{
+
+pri=pop(s);
+
+break;
+
+if(empty(s)){
+cout<<"pila vacia"<<endl;
+break;
+
+if{
+seg=pop(s);
+c=seg;
+
+cout<<"el numero es: "<< c <<endl;
+
+if{
+push(s,c)
+
+else{
+push(s,pri)
+}
+break;
+}
+
+return 0;
+}
