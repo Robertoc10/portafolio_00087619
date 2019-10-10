@@ -1,0 +1,49 @@
+a) A+B-C
+Prefijo:
++AB-C
+-+ABC
+Postfijo:
+AB+-C
+AB+C-
+
+b) (A+B)*(C-D)$E*F
+Prefijo:
+(+AB)*(-CD)$E*F
+(+AB)*$(-CD)E*F
+(+AB)*$(-CD)*EF
+*+AB$-CD*EF
+Postfijo:
+(AB+)*(CD-)$E*F
+(AB+)*(CD-)E*F$
+(AB+)*(CD-)EF$*
+AB+CD-*EF$*
+
+c) (A+B)*(C$(D-E)+F)-G
+Prefijo:
+(+AB)*(C$(-DE)+F)-G
+(+AB)*($C(-DE)+F)-G
+(+AB)*(+$C-DEF)-G
+(*+AB+$C-DEF)-G
+-*+AB+$C-DEFG
+Postfijo:
+(AB+)*(C$(DE-)+F)-G
+(AB+)*(CDE-$+F)-G
+(AB+)*(CDEF-$+)-G
+AB+CDEF-$+*-G
+AB+CDEF-$+*G-
+
+d) A+(((B-C)*(D-E)+F)/G)$(H-J)
+Prefijo:
+A+(((-BC)*(-DE)+F)/G)$(-HJ)
+A+(((-BC)*(+-DEF)/G)$(-HJ)
+A+(((-BC)*(/+-DEF)$(-HJ)
+A+(*-BC/+-DEF)$(-HJ)
+A+$*-BC/+-DEF-HJ
++A$*-BC/+-DEF-HJ
+Postfijo:
+A+(((BC-)*(DE-)+F)/G)$(HJ-)
+A+(((BC-)*(DE-F+)/G)$(HJ-)
+A+(((BC-)*(DE-F+G/)$(HJ-)
+A+(BC-DE-F+G/*)$(HJ-)
+A+(BC-DE-F+G/*HJ-$)
+ABC-DE-F+G/*HJ-$+
