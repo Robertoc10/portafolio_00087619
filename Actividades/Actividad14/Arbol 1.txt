@@ -1,0 +1,24 @@
+Raíz: A
+Ramas: B,C,D,E
+Hojas: G,H,I,F
+
+Niveles de nodos:
+A=0
+B,C= 1
+D,E,F= 2
+G,H,I = 3
+
+Profundidad = 3
+Peso = 9
+Orden = 2
+
+Sub-Arbol:  C
+          E   F
+        H  I
+
+No es árbol lleno o estrcito
+No es árbol perfecto o completo
+
+Recorrido Pre-orden: A,B,D,G,C,E,H,I,F
+Recorrido Post-orden: G,D,B,H,I,E,F,C,A
+Recorrido in-orden: G,D,B,A,H,E,I,C,F
